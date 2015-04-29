@@ -1,0 +1,64 @@
+PanelAbstractWindow {
+	background-image: linear-gradient(#000, #000);
+	background-color: #000;
+	color: #ddd;
+}
+
+PanelWindowHost,
+PanelWindowPagerEntry {
+	background-image: linear-gradient(to bottom,
+		rgb(17,17,17),
+		rgb(17,17,10));
+	color: #ddd;
+	border-bottom: 1px solid #0a0a0a;
+}
+
+PanelWindowEntryDescriptions {
+	background-color: #000;
+	font: Droid Sans;
+	font-weight: bold;
+	font-size: 7px;
+	border: 20px solid black;
+}
+
+PanelTray * {
+	background: #111;
+	color: #ddd;
+}
+
+PanelClock {
+	background: #111;
+	color: #BEBEBE;
+	text-shadow: 0 1px 1px #000;
+	font-family: Droid Sans;
+	font-size: 9px;
+}
+
+PanelWindowEntry {
+	background: transparent;
+	transition: all 300ms ease-out;
+	opacity: 0.8;
+}
+
+PanelWindowEntry:active {
+	background-image: linear-gradient(#aaa, #444);
+}
+
+PanelWindowEntry:hover {
+	background-image: linear-gradient(#BFBFBF, #4D4D4D);
+}
+
+PanelWindowPager {
+	background: transparent;
+	color: #ddd;
+}
+
+PanelCalendar {
+	background: transparent;
+	color: #BEBEBE;
+}
+
+.background {
+
+	opacity: 1;
+}
